@@ -38,17 +38,102 @@ body{
   margin-bottom: 15px;
 }
 .btn_primary{
-  background-color: rgb(229, 84, 115);
-  color: rgb(255, 255, 255);
-  width: 140px;
-  height: 40px;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
+ background-color: rgb(229, 84, 115);
+ color: rgb(255, 255, 255);
+ width: 140px;
+ height: 40px;
+ border-radius: 5px;
+ text-align: center;
+ text-decoration: none;
 }
 .secend_conteinar img{
-  width: 450px;
-  height: 500px;
-  margin-right: 200px;
+ width: 450px;
+ height: 500px;
+ margin-right: 200px;
 }
 /* banner style end here */
+/* main section style start here */
+.our_flo{
+ width: 450px;
+ height: 90px;
+ margin: 0 auto;
+ margin-top: 90px;
+ margin-bottom: 30px;
+ text-align: center;
+}
+.feat{
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(39, 39, 39);
+  margin-bottom: 15px;
+}
+.established{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(39, 39, 39, 0.6);
+  margin-bottom: 30px;
+}
+/* three flower style */
+.three_flo{
+  width: 1300px;
+  height: 500px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pink1, .pink2, .pink3{
+  width: 350px;
+  height: 450px;
+  border-radius: 200px 200px 0px 0px;
+  background-color: rgba(167, 33, 98, 0.15);
+  padding-right: 70px;
+  
+}
+.pink1 img, .pink2 img, .pink3 img{
+  width: 230px;
+  height: 350px;
+  margin-bottom: 0px;
+  margin-top: 100px;
+  margin-left: 90px;
+  margin-right: 30px;
+  text-align: center;
+  
+}
+.pink2{
+  background-color: rgba(5, 151, 160, 0.15);
+}
+.pink3{
+  background-color: rgba(71, 125, 17, 0.15);
+}
+.tree{
+  font-size: 18px;
+  font-weight: 700px;
+  margin-top: 25px;
+  text-align: center;
+}
+/* three icon style */
+.three_icon{
+  width: 1300px;
+  height: 250px;
+  margin-top: 80px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(39, 39, 39, 0.05);
+}
+.man, .flo_icon, .support{
+  width: 280px;
+  height: 80px;
+  margin: 50px 50px 80px;
+  text-align: center;
+}
+/* three flo and three icon style end */
+
+
+
+
+
+
+/* main section style end here */
