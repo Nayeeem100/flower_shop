@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body{
+  font-family: "Lato", sans-serif;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+}
+/* banner style start here */
+.cover_conteinar{
+  width: 1535px;
+  height: 500px;
+  background-color: rgba(229, 84, 115, 0.1);
+  display: flex;
+}
+.first_conteinar{
+  width: 50%;
+  height: 50%;
+  padding-left: 200px;
+  padding-top: 150px;
+  padding-bottom: 130px;
+  padding-right: 60px;
+ 
+}
+.let_make{
+  color: rgb(39, 39, 39);
+  font-family: Lato;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.itis{
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.btn_primary{
+  background-color: rgb(229, 84, 115);
+  color: rgb(255, 255, 255);
+  width: 140px;
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+.secend_conteinar img{
+  width: 450px;
+  height: 500px;
+  margin-right: 200px;
+}
+/* banner style end here */
