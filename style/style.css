@@ -8,7 +8,7 @@ body{
 }
 /* banner style start here */
 .cover_conteinar{
-  width: 1535px;
+  width: 1515px;
   height: 500px;
   background-color: rgba(229, 84, 115, 0.1);
   display: flex;
@@ -44,7 +44,10 @@ body{
  height: 40px;
  border-radius: 5px;
  text-align: center;
- text-decoration: none;
+ border-style: none;
+}
+.btn_primary:hover{
+  background-color: rgb(243, 108, 108);
 }
 .secend_conteinar img{
  width: 450px;
@@ -130,6 +133,111 @@ body{
   text-align: center;
 }
 /* three flo and three icon style end */
+/* offer conteinar section style start */
+.offer_conteinar{
+  width: 1515px;
+  height: 400px;
+  background-color: rgba(229, 84, 115, 0.05);
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 80px;
+}
+.hot_deal{
+  width: 480px;
+  height: 150px;
+  margin: 130px 100px 70px 180px;
+  text-align: center;
+}
+.sale{
+  font-size: 40px;
+  font-weight: 700;
+  color:rgb(39, 39, 39) ;
+  margin-bottom: 15px;
+}
+.off{
+  color: rgb(229, 84, 115);
+}
+.layout{
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.flo_photo{
+margin: 50px 300px 50px 0;
+}
+.flo_photo img{
+  width: 200px;
+  height: 300px;
+}
+/* offer conteinar section style end */
+/* instagram conteinar style start */
+.ins_conteinar{
+  width: 480px;
+  height: 60px;
+  text-align: center;
+  margin: 0 auto;
+}
+.ins-title{
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.ins_description{
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.four_flo_conteinar{
+  width: 1320px;
+  height: 300px;
+  margin: 60px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+.flow1 img, .flow2 img,.flow3 img,.flow4 img{
+  width: 300px;
+  height: 270px;
+}
+/* instagram conteinar style end */
+/* subscribe conteinar style start */
+.sub_conteinar{
+  width: 1300px;
+  height: 350px;
+  background-image: url(../images/latest-deals-bg.png);
+  margin: 0 auto;
+  text-align: center;
+}
+.get_conteinar{
+ padding: 90px 350px 30px;
+}
+.get{
+ font-size: 40px;
+ font-weight: 800;
+ margin-bottom: 10px; 
+}
+.get_pra{
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.box_btn{
+  display: flex;
+  justify-content: center;
+}
+.box input[type="email"]{
+  width: 600px;
+  height: 40px;
+  margin: 0px 10px 300px 90px;
+  padding-top: 10px;
+  border-radius: 5px;
+  border-style: none;
+}
+
+/* subscribe conteinar style end */
+
 
 
 
