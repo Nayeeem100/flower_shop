@@ -235,13 +235,39 @@ margin: 50px 300px 50px 0;
   border-radius: 5px;
   border-style: none;
 }
-
 /* subscribe conteinar style end */
-
-
-
-
-
-
-
 /* main section style end here */
+/* footer section style style here */
+.last_conteinar{
+  width: 1515px;
+  height: 350px;
+  background-color: #111010;
+  margin-top: 70px;
+
+}
+.last{
+text-align: center;
+padding: 90px 450px 80px 450px;
+
+}
+.shop{
+  font-size: 45px;
+  font-weight: 800;
+  margin-bottom: 18px;
+  color: white;
+}
+.flower{
+color: rgb(229, 84, 115);
+}
+.big_discription{
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.9);
+}
+.small_discription{
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.4);
+}
+/* footer section style send here */
